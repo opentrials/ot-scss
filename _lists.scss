@@ -217,6 +217,20 @@ dl {
     font-size: 0.9em;
     padding: em(1) em(8);
   }
+
+  .more {
+    background-color: $blue;
+    color: #fff;
+    font-weight: normal;
+    font-size: 0.9em;
+    border-radius: $base-border-radius;
+    padding-left: $small-spacing;
+    padding-right: $small-spacing;
+
+    @include MQ(M) {
+      float: right;
+    }
+  }
 }
 
 .document-list {
