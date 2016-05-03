@@ -1,7 +1,7 @@
 // Typography
 $base-font-family: "TeX Gyre Heros", $helvetica;
 $heading-font-family: $base-font-family;
-$path-to-fonts: "../fonts";
+$path-to-fonts: "../fonts" !default;
 
 // Font Sizes
 $base-font-size: 1em;
