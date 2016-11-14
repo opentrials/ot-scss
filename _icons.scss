@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'opentrials';
-    src:    url('#{$path-to-fonts}/opentrials/opentrials.eot?9zegjl');
-    src:    url('#{$path-to-fonts}/opentrials/opentrials.eot?9zegjl#iefix') format('embedded-opentype'),
-        url('#{$path-to-fonts}/opentrials/opentrials.ttf?9zegjl') format('truetype'),
-        url('#{$path-to-fonts}/opentrials/opentrials.woff?9zegjl') format('woff'),
-        url('#{$path-to-fonts}/opentrials/opentrials.svg?9zegjl#opentrials') format('svg');
+    src:    url('#{$path-to-fonts}/opentrials/opentrials.eot?ih25za');
+    src:    url('#{$path-to-fonts}/opentrials/opentrials.eot?ih25za#iefix') format('embedded-opentype'),
+        url('#{$path-to-fonts}/opentrials/opentrials.ttf?ih25za') format('truetype'),
+        url('#{$path-to-fonts}/opentrials/opentrials.woff?ih25za') format('woff'),
+        url('#{$path-to-fonts}/opentrials/opentrials.svg?ih25za#opentrials') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -28,90 +28,111 @@
   @include icon-font();
 }
 
+.icon-link-external:before {
+  content: "\e91a";
+}
 .icon-behavioral:before {
-    content: "\e914";
+  content: "\e914";
+}
+.icon-treatment:before {
+  content: "\e917";
 }
 .icon-procedure:before {
-    content: "\e915";
+  content: "\e915";
 }
 .icon-pill:before {
-    content: "\e905";
+  content: "\e905";
 }
 .icon-man:before {
-    content: "\e906";
+  content: "\e906";
 }
 .icon-man-woman:before {
-    content: "\e907";
+  content: "\e907";
 }
 .icon-woman:before {
-    content: "\e908";
+  content: "\e908";
+}
+.icon-arrow_right:before {
+  content: "\e91c";
+}
+.icon-find_in_page:before {
+  content: "\e91b";
+}
+.icon-browser:before {
+  content: "\e918";
+}
+.icon-pdf:before {
+  content: "\e919";
+}
+.icon-link:before {
+  content: "\e916";
 }
 .icon-flag:before {
-    content: "\e910";
+  content: "\e910";
 }
 .icon-close:before {
-    content: "\e911";
+  content: "\e911";
 }
 .icon-insert_drive_file:before {
-    content: "\e912";
+  content: "\e912";
 }
 .icon-delete:before {
-    content: "\e913";
+  content: "\e913";
 }
 .icon-more_vert:before {
-    content: "\e90e";
+  content: "\e90e";
 }
 .icon-twitter:before {
-    content: "\e900";
+  content: "\e900";
 }
 .icon-mail:before {
-    content: "\e901";
+  content: "\e901";
 }
 .icon-messages:before {
-    content: "\e902";
+  content: "\e902";
 }
 .icon-arrow-circle-o-down:before {
-    content: "\e909";
+  content: "\e909";
 }
 .icon-arrow-circle-o-up:before {
-    content: "\e90a";
+  content: "\e90a";
 }
 .icon-eye-slash:before {
-    content: "\e90b";
+  content: "\e90b";
 }
 .icon-eye:before {
-    content: "\e90c";
+  content: "\e90c";
 }
 .icon-more_vert:before {
-    content: "\e90e";
+  content: "\e90e";
 }
 .icon-twitter:before {
-    content: "\e900";
+  content: "\e900";
 }
 .icon-mail:before {
-    content: "\e901";
+  content: "\e901";
 }
 .icon-messages:before {
-    content: "\e902";
+  content: "\e902";
 }
 .icon-log-out:before {
-    content: "\e90f";
+  content: "\e90f";
 }
 .icon-calendar:before {
-    content: "\e90d";
+  content: "\e90d";
 }
 .icon-creative-commons-attribution:before {
-    content: "\e600";
+  content: "\e600";
 }
 .icon-creative-commons:before {
-    content: "\e601";
+  content: "\e601";
 }
 .icon-chevron-thin-down:before {
-    content: "\e602";
+  content: "\e602";
 }
 .icon-play:before {
-    content: "\e903";
+  content: "\e903";
 }
 .icon-search:before {
-    content: "\e904";
+  content: "\e904";
 }
